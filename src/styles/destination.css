@@ -30,7 +30,7 @@
     margin-left: 50px;
 }
 
-.arrow-btn {
+.arrow-btns {
     display: flex;
     justify-content: end;
 }
@@ -43,15 +43,18 @@
     color: rgb(0, 0, 0);
     border: 1px solid #1918251A
 }
-.destination-section{
-   padding-left: 50px;
-   padding-right: 50px;
+
+.destination-section {
+    height: 867px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 .destination-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* margin-right: 32px; */
+    /* margin-right: 32px; */
 }
 
 .destination-card img {
@@ -73,13 +76,14 @@
 
 
 }
-.heading h3{
-    color: #F85E9F;   
-font-family: Circular Std;
-font-size: 23px;
-font-weight: 700;
-line-height: 27.6px;
-text-align: left;
+
+.heading h3 {
+    color: #F85E9F;
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: left;
 
 }
 
@@ -100,13 +104,14 @@ text-align: left;
 .card-contents {
     padding: 32px;
 }
-.card-contents p{
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 28.8px;
-text-align: left;
-margin-bottom: 32px;
+
+.card-contents p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    margin-bottom: 32px;
 }
 
 .card-contents h2 {
@@ -115,5 +120,93 @@ margin-bottom: 32px;
     font-weight: 700;
     line-height: 27.6px;
     text-align: left;
+
+}
+
+@media only screen and (max-width : 1024px) {
+    .destination-section {
+        /* width: Hug (896px)px; */
+        height: 1026px;
+
+    }
+
+    .destination-cards {
+        height: 100%;
+        margin-top: 100px;
+
+    }
+
+    .destination-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .destination-text {
+        text-align: center;
+    }
+
+    .arrow-btns {
+        /* display: flex;
+        justify-content: center;
+        margin-bottom: 67px; */
+    }
+
+    .destination-text h3 {
+        font-family: Circular Std;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 27.6px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color: #F85E9F;
+        margin-bottom: 16px;
+
+    }
+
+    .destination-text h2 {
+        margin-top: 18px;
+        margin-bottom: 64px;
+        text-align: center;
+
+    }
+
+    .arrow-right button {
+        /* margin-bottom: 60px; */
+
+    }
+
+    .destination-card {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-right: 32px; */
+        width: 278px;
+        /* height: 575px; */
+        border-radius: 32px 32px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 214px;
+        height: 92px;
+
+    }
+    .destination-card img{
+        height: 254px;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+   
+    .destination-section{
+        height: 2155px;
+    }
 
 }

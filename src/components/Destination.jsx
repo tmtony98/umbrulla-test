@@ -9,13 +9,13 @@ function Destination() {
     return (
         <div className="destination-section " >
             <div className="destination-text container-fluid ">
-                <div className="row">
+                <div className="row destination-row">
                     <div className="col-lg-8 col-md-12 col-12">
                         <h3>TOP DESTINATION</h3>
                         <h2>Explore Top Destination</h2>
                     </div>
                     <div className="col-lg-4 col-md-12 col-12">
-                        <div className="div arrow-btn">
+                        <div className="div arrow-btns">
                             <div className="arrow-left">
                                 <button>
                                     <i class="fa-solid fa-arrow-left"></i>
@@ -31,7 +31,7 @@ function Destination() {
                 </div>
             </div>
             <div className="destination-cards container-fluid">
-                <div className="row ">
+                <div className="row">
                     <div className="col-lg-4  col-md-4 col-12">
                         <div className="destination-card  ">
                             <img src={img1} alt="" />

@@ -21,7 +21,7 @@ function Services2() {
           </div>
           <div className="col-lg-8 col-md-12">
             <div className="service-list container">
-              <div className="row ">
+              <div className="row d-flex ">
                 <div className="col-lg-4 col-md-4 col-4 service-card card border-1">
                   <img src={img1} alt="" />
                   <h1>Best Tour Guide</h1>

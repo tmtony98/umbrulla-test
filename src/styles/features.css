@@ -1,0 +1,150 @@
+.feature-row {
+    display: flex;
+    height: 164px;
+    padding: 32px;
+
+
+}
+
+.features-left {
+    /* width:  50vw; */
+}
+
+.feature-row img {
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 40px;
+
+}
+
+.feature-img-1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 32px;
+
+    background-color: #FF5722;
+
+}
+
+.feature-img-2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 32px;
+    background-color: #FACD49;
+}
+
+.feature-img-3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 32px;
+    background-color: #F85E9F;
+}
+
+.feature-row h3 {
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    text-align: left;
+
+}
+
+.feature-row-text {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features-section h2 {
+
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #F85E9F;
+
+}
+
+.features-section h1 {
+    margin-top: 16px;
+    font-family: Circular Std;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    color: #191825;
+}
+
+.features-left-para {
+    width: 100%;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    opacity: 50%;
+    margin-top: 32px;
+    margin-bottom: 64px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .features-row {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: -95px;
+        margin-bottom: 70px;
+
+    }
+
+    .features-section p,
+    .features-section h1,
+    .features-section h2 {
+        text-align: center;
+    }
+
+
+
+    .features-right img {
+        max-width: 700px;
+        width: 90%;
+        height: auto;
+        margin-bottom: 65px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .feature-row {
+        display: flex;
+        flex-direction: column; 
+        height: 290px;
+        text-align: start;
+    }
+    .feature-row p{
+        text-align: start;
+        margin-top: 8px;
+    }
+    .feature-row h3{
+        text-align: start;
+        margin-top: 30px;
+    }
+    .feature-img-1 ,.feature-img-2,.feature-img-3 {
+        margin-left: 20px;
+    }
+
+
+
+}

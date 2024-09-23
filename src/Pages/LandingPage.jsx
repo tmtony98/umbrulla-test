@@ -5,6 +5,9 @@ import Brands from '../components/Brands'
 import Services from '../components/Services'
 import Services2 from '../components/Services2'
 import Destination from '../components/Destination'
+import TravelPoint from '../components/TravelPoint'
+import Features from '../components/Features'
+import Footer from '../components/Footer'
 
 
 function LandingPage() {
@@ -15,7 +18,9 @@ function LandingPage() {
      <Brands/>
      <Services2/>
      <Destination/>
-     
+     <TravelPoint/>
+     <Features/>
+     <Footer/>
     </div>
   )
 }

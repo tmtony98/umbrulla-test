@@ -20,6 +20,7 @@
 
 
 body {
+ background-color: rgb(249, 249, 249);
   font-family: "Circular Std", sans-serif;
 padding-left: 20px;
 overflow-x: hidden;

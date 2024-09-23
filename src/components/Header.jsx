@@ -34,37 +34,7 @@ function Header() {
           </div>
         </div>
       </nav>
-      {/* <div className="div">
-      <section class="travel-section">
-      <div class="container">
-      <div class="text-content">
-        <div class="explore">
-          <button class="explore-btn">Explore the world!</button>
-        </div>
-        <h1>Travel <span>top destination</span> of the world</h1>
-        <p>We always make our customers happy by providing as many choices as possible</p>
-        <div class="buttons">
-          <button class="btn get-started">Get Started</button>
-          <button class="btn watch-demo">Watch Demo</button>
-        </div>
-      </div>
-      <div class="image-content">
-        <div class="image-grid">
-          <div class="image-card">
-            <img src="https://via.placeholder.com/300" alt="Destination 1"/>
-          </div>
-          <div class="image-card">
-            <img src="https://via.placeholder.com/300" alt="Destination 2"/>
-            <span class="label">Top Places</span>
-          </div>
-          <div class="image-card">
-            <img src="https://via.placeholder.com/300" alt="Destination 3"/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-      </div> */}
+     
     </div>
     
   )

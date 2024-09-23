@@ -1,0 +1,142 @@
+/* width: 871px;
+height: 697px;
+gap: 0px;
+opacity: 0px; */
+
+.travel-section img {
+    width: 871px;
+    height: 697px;
+    max-height: 697px;
+}
+
+.text-area {
+    /* height: Hug (269px)px; */
+
+    min-width: 441px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text-area h3 {
+    color: #f85e9f;
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.text-area-h2 {
+    color: #191825;
+    font-family: Circular Std;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.text-area p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    margin-bottom: 64px;
+    color: #19182580;
+    opacity: 50%;
+}
+
+.details {
+    min-width: 450px;
+}
+
+.details-row {
+    justify-content: start;
+}
+
+.detail-card {
+    padding: 32px;
+    width: 224px;
+    min-width: 204px;
+    min-height: 151px;
+    height: 151px;
+    margin-left: 32px;
+    border-radius: 32px;
+    border: 1px solid #1918251a;
+    margin-top: 32px;
+}
+
+.detail-card h2 {
+    font-family: Circular Std;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #ff5722;
+}
+
+.detail-card p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #191825;
+}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 600px) {
+    .travel-section img {
+        width: 90%;
+        height: auto;
+    }
+
+    .text-area {
+        text-align: center;
+    }
+
+    .text-area {
+        /* height: Hug (269px)px; */
+
+        min-width: 350px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-area h3 {
+        font-family: Circular Std;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.2px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        margin-top: 64px;
+
+    }
+
+    .text-area-h2 {
+        font-family: Circular Std;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.4px;
+        text-align: center;
+        width: 80%;
+
+    }
+
+    .text-area p {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        text-align: center;
+        width: 70%;
+
+    }
+  
+}

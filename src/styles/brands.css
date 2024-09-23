@@ -1,6 +1,6 @@
 .container-fluid {
     /* width: 1184px ; */
-    height: 160px;
+    /* height: 160px; */
     padding: 64px 0px 64px 0px;
     margin-top: 18px;
     max-width: 100%;
@@ -14,4 +14,16 @@
 }
 .col-lg-2{
     margin-top: 32px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.brands{
+    height: 136px;
+}
+.brands img{
+    height: 20px;
+  
+}
+
 }
