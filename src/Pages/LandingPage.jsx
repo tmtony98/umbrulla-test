@@ -8,14 +8,17 @@ import Destination from '../components/Destination'
 import TravelPoint from '../components/TravelPoint'
 import Features from '../components/Features'
 import Footer from '../components/Footer'
+import HeroSection2 from '../components/HeroSection2'
 
 
 function LandingPage() {
   return (
     <div>
      <Header/>
-     <HeroSection/>
+     <HeroSection2/>
+     {/* <HeroSection/> */}
      <Brands/>
+
      <Services2/>
      <Destination/>
      <TravelPoint/>

@@ -13,7 +13,7 @@ function TravelPoint() {
           <div className="col-lg-5 col-md-12 col-12 text-area ">
             <h3>Travel Point</h3>
             <h2 className="text-area-h2">We helping you find your dream location</h2>
-            <p>
+            <p id="paragraph">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC.
             </p>

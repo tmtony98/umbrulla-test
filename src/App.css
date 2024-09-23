@@ -20,9 +20,9 @@
 
 
 body {
- background-color: rgb(249, 249, 249);
   font-family: "Circular Std", sans-serif;
 padding-left: 20px;
+padding-right: 20px;
 overflow-x: hidden;
 box-sizing: border-box;
 }

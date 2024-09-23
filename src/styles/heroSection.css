@@ -6,7 +6,7 @@
     /* top: 113px;
   left: 128px; */
     padding: 64px 0px 64px 0px;
-    border: #5d50c6 1px solid;
+    /* border: #5d50c6 1px solid; */
     margin-bottom: 50px;
 }
 
@@ -61,10 +61,24 @@
 .started-btn {
     width: 141px;
     height: 49px;
-    padding: 16px 32px 16px 32px;
     background-color: #5d50c6;
     border-radius: 100px;
     color: #eeeeee;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+
+}
+.watch-btn{
+    width: Hug (181px)px;
+height: Hug (56px)px;
+padding: 16px 32px 16px 32px;
+gap: 8px;
+border-radius: 100px;
+border: 1px solid #EEEEEE;
+opacity: 0px;
+
 }
 
 .hero-img-section {

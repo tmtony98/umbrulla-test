@@ -39,7 +39,7 @@ opacity: 0px; */
     margin-bottom: 32px;
 }
 
-.text-area p {
+#paragraph {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;

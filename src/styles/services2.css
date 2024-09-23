@@ -1,7 +1,13 @@
 .service-area {
-    height: 571px
+    height: 571px;
   /* width: 100%; */
 }
+@media (min-width: 1313px) {
+  .service-area {
+  margin-top: -100px;
+}
+}
+
 
 .text {
   width: 444px;

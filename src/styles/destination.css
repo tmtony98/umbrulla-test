@@ -208,5 +208,11 @@
     .destination-section{
         height: 2155px;
     }
+        .destination-card{
+        margin-bottom: 30px;
+    }
+    .destination-cards{
+        margin-top: -20px;
+    }
 
 }

@@ -7,6 +7,7 @@ import  img2 from "../assets/Rectangle 2.png"
 import  img3 from "../assets/Rectangle 3.png"
 import send from "../assets/Vector (5).png"
 import add from "../assets/Vector (4).png"
+import play from "../assets/Vector (8).png"
 
 
 
@@ -36,7 +37,8 @@ function HeroSection() {
             </p>
             <div className="hero-btns">
               <button className="started-btn">Get Started</button>
-              <button>Watch Demo</button>
+              <button className="watch-btn mx-2"><div className="d-flex">
+              <img src={play} alt="" /> <p className="mx-2">Watch demo</p></div></button>
             </div>
           </div>
         </div>
