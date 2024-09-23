@@ -1,0 +1,203 @@
+.service-area {
+    height: 572px
+  /* width: 100%; */
+}
+
+.text {
+  width: 444px;
+  /* height: 150px; */
+  /* padding-top: 210px;
+    padding-bottom: 210px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h4 {
+  font-family: Circular Std;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 27.6px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #f85e9f;
+}
+
+.text h1 {
+  margin-top: 16px;
+  font-family: Circular Std;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.8px;
+  text-align: left;
+}
+
+.service-list {
+  width: 1092px;
+  max-width: 1092px;
+  /* height: 443px; */
+  padding-top: 64px;
+  padding-bottom: 64px;
+  overflow: hidden;
+}
+
+.service-card {
+  /* text-align: center; */
+  padding-top: 64px;
+  padding-left: 64px;
+  padding-right: 64px;
+  width: 340px;
+  height: 443px;
+  border-radius: 32px;
+  border: 1px solid #1918251a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* Stack elements vertically */
+  align-items: center;
+  /* Center elements horizontally */
+  /* justify-content: flex-start; Ensure content starts from the top */
+}
+
+.service-card img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 64px;
+}
+
+.service-card h1 {
+  font-family: Circular Std;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.service-card p {
+  width: 222px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #19182580;
+  opacity: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .text {
+    text-align: center;
+    width: 100%;
+    /* height: 150px; */
+    /* padding-top: 210px;
+        padding-bottom: 210px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-area{
+    height: 727px;
+  }
+
+  .text h4 {
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.1em;
+    color: #f85e9f;
+    text-align: center;
+  }
+
+  .text h1 {
+    margin-top: 16px;
+    font-family: Circular Std;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    font-family: Circular Std;
+    text-align: center;
+  }
+
+  .service-card {
+    width: 288px;
+    height: 443px;
+  }
+
+  .service-card p {
+    width: 160px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #19182580;
+    opacity: 50%;
+    text-align: center;
+  }
+
+  .service-list {
+    width: 100vw;
+    max-width: 980px;
+    /* height: 443px; */
+    padding-top: 64px;
+    padding-bottom: 64px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    .service-area{
+        height: 1076px;
+      }
+  .text h1 {
+    margin-top: 16px;
+    font-family: Circular Std;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    font-family: Circular Std;
+    text-align: center;
+  }
+
+  .text h4 {
+    font-family: Circular Std;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: #f85e9f;
+    text-align: center;
+  }
+
+  .service-card {
+    /* text-align: center; */
+    padding-top: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 90vw;
+    height: 85vw;
+    border-radius: 32px;
+    border: 1px solid #1918251a;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    margin-bottom: 18px;
+    /* Center elements horizontally */
+    /* justify-content: flex-start; Ensure content starts from the top */
+  }
+  .service-card p {
+    width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #19182580;
+    opacity: 50%;
+    text-align: center;
+  }
+
+}

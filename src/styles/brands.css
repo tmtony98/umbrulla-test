@@ -1,0 +1,17 @@
+.container-fluid {
+    /* width: 1184px ; */
+    height: 160px;
+    padding: 64px 0px 64px 0px;
+    margin-top: 18px;
+    max-width: 100%;
+    
+
+
+}
+.row
+{
+    justify-content: space-around;
+}
+.col-lg-2{
+    margin-top: 32px;
+}

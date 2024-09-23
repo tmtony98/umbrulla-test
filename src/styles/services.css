@@ -1,0 +1,131 @@
+.service-section {
+    display: flex;
+    flex-direction: row;
+    height: 571px;
+    width: 1320px;
+    min-width: 1320px;
+    margin-left: 25px;
+}
+
+
+.service-heading {
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 88px; */
+}
+
+
+.service-heading h3 {
+    color: #F85E9F;
+    font-family: Circular Std;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+    letter-spacing: 0.2em;
+    text-align: left;
+
+}
+
+.service-heading h1 {
+    font-family: Circular Std;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: left;
+    color: #191825;
+    width: 444px;
+    height: 106px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.service-cards {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.col {
+    /* width: 75%; */
+    width: 350px;
+    height: 443px;
+    border-radius: 32px;
+    border: 1px solid #1918251A;
+    padding: 64px;
+}
+
+.col h2 {
+    width: 222px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Circular Std;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+
+    .col h2 {
+        width: 160px;
+        height: 216px;
+
+
+        gap: 0px;
+        opacity: 0px;
+
+        font-family: Circular Std;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 33.6px;
+        text-align: center;
+
+    }
+
+    .col p {
+        width: 160px;
+
+    }
+
+    .service-cards {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .col {
+        width: 288px !important;
+        height: 443px;
+        border-radius: 32px;
+        /* border: 1px solid #1918251A; */
+        flex: 0 0 0px;
+    }
+
+
+    .service-section {
+        display: flex;
+        flex-direction: column;
+        height: 727px;
+        width: 900px;
+
+        margin-left: 25px;
+
+
+    }
+
+
+}
